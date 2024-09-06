@@ -66,9 +66,7 @@ function Navbar() {
     >
       <div className="flex w-11/12 max-w-maxContent items-center justify-between">
         {/* Logo */}
-        <Link to="/">
-          <img src={logo} alt="Logo" width={160} height={32} loading="lazy" />
-        </Link>
+        <div style={{ fontFamily: 'Arial, sans-serif', fontSize: '32px', fontWeight: 'bold', background: 'linear-gradient(45deg, #FFFFE0, #FFD700)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', textShadow: '2px 2px 5px rgba(0, 0, 0, 0.2)', position: 'relative' }}>🎓 Eduvoyage</div>
         {/* Navigation links */}
         <nav className="hidden md:block">
           <ul className="flex gap-x-6 text-richblack-25">
